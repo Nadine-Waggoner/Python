@@ -1,4 +1,3 @@
-import time
 
 start = input("Type 'start' to begin adventure. Type anything else to exit. ")
 if start == "start":
@@ -8,15 +7,12 @@ if start == "start":
     You're wearing boots, a thick waterproof coat, and at your waist is a sheath with a heavy sword.
     You consider turning to see the source of the green tinted light, but you're also curious about your sword.
     You feel as if you are being watched, but that might just be your overactive imagination.""")
-    time.sleep(.5)
     print("""
     Your options are:""")
-    time.sleep(.5)
     print("""
     a) Press onward into the dark.
     b) Turn around to face the dim green light.
     c) Unsheath sword.""")
-    time.sleep(.5)
     letter = input("""
     Type the letter of the action you wish to take. """)
     if letter == ("a") or letter == ("b") or letter == ("c"):
@@ -29,9 +25,11 @@ if start == "start":
         if letter == ("b"):
             print("""
     The dim green light was coming from the glowing eyes of a large statue of a toad.
-    The eyes seem to be small green fires glowing in stone eye sockets.
+    The glow is caused by small green fires glowing in the stone eye sockets.
     The entire statue is damp and slimy, and seems to be ancient and magical.
-    The toad's mouth seems to be a tunnel leading down, however, the large stone base of the statue has writing on either side.
+    The toad's mouth is open wide and it looks as if it is the entrance to a small tunnel leading down.
+    You're curious where it leads.
+    However, the large stone base of the statue has writing on either side, which you can't discern from this distance.
     You hear footsteps coming swiftly from behind you.
     Quick. Time is of the essence. Would it be worth it to try and read the writing?
     The footsteps sound big, and the space you're in is large and open. The small tunnel may be the only place you'd be safe.
@@ -70,7 +68,7 @@ if start == "start":
                 if letter2 == ("c"):
                     print("""
     You slide into the open entrance of the tunnel and run down the slippery stairs until you are sure you've lost whoever was making the footsteps.
-    Immediately after you entered the tunnel, the feeling of being closely watched went away.
+    Immediately after you entering the tunnel, the feeling of being closely watched goes away.
     A large sigh of relief escapes your lips.
     You feel as if you have escaped some great danger, but you don't know what.
     You guess you should be glad you don't have to find out.
